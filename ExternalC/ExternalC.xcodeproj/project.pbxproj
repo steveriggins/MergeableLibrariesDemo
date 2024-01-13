@@ -7,24 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00055C832B510965000A7560 /* Mergable_LibrariesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00055C822B510965000A7560 /* Mergable_LibrariesApp.swift */; };
-		00055C852B510965000A7560 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00055C842B510965000A7560 /* ContentView.swift */; };
-		00055C872B510965000A7560 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00055C862B510965000A7560 /* Item.swift */; };
-		00055C892B510966000A7560 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00055C882B510966000A7560 /* Assets.xcassets */; };
-		00055C8C2B510966000A7560 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00055C8B2B510966000A7560 /* Preview Assets.xcassets */; };
+		00055CC52B5117E3000A7560 /* ExternalC.h in Headers */ = {isa = PBXBuildFile; fileRef = 00055CC42B5117E3000A7560 /* ExternalC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00055CCC2B5117EB000A7560 /* ExternalC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00055CCB2B5117EB000A7560 /* ExternalC.swift */; };
+		00055CEC2B511A21000A7560 /* ExternalC.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00055CEB2B511A21000A7560 /* ExternalC.xcassets */; };
+		00055CEE2B511F0F000A7560 /* mansion.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 00055CED2B511F0F000A7560 /* mansion.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		00055C7F2B510965000A7560 /* Mergable Libraries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mergable Libraries.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		00055C822B510965000A7560 /* Mergable_LibrariesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mergable_LibrariesApp.swift; sourceTree = "<group>"; };
-		00055C842B510965000A7560 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		00055C862B510965000A7560 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
-		00055C882B510966000A7560 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		00055C8B2B510966000A7560 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		00055CC12B5117E3000A7560 /* ExternalC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExternalC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		00055CC42B5117E3000A7560 /* ExternalC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExternalC.h; sourceTree = "<group>"; };
+		00055CCB2B5117EB000A7560 /* ExternalC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalC.swift; sourceTree = "<group>"; };
+		00055CEB2B511A21000A7560 /* ExternalC.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ExternalC.xcassets; sourceTree = "<group>"; };
+		00055CED2B511F0F000A7560 /* mansion.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mansion.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		00055C7C2B510965000A7560 /* Frameworks */ = {
+		00055CBE2B5117E3000A7560 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -34,78 +32,81 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00055C762B510965000A7560 = {
+		00055CB72B5117E3000A7560 = {
 			isa = PBXGroup;
 			children = (
-				00055C812B510965000A7560 /* Mergable Libraries */,
-				00055C802B510965000A7560 /* Products */,
+				00055CED2B511F0F000A7560 /* mansion.jpeg */,
+				00055CCB2B5117EB000A7560 /* ExternalC.swift */,
+				00055CEB2B511A21000A7560 /* ExternalC.xcassets */,
+				00055CC32B5117E3000A7560 /* ExternalC */,
+				00055CC22B5117E3000A7560 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		00055C802B510965000A7560 /* Products */ = {
+		00055CC22B5117E3000A7560 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				00055C7F2B510965000A7560 /* Mergable Libraries.app */,
+				00055CC12B5117E3000A7560 /* ExternalC.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		00055C812B510965000A7560 /* Mergable Libraries */ = {
+		00055CC32B5117E3000A7560 /* ExternalC */ = {
 			isa = PBXGroup;
 			children = (
-				00055C822B510965000A7560 /* Mergable_LibrariesApp.swift */,
-				00055C842B510965000A7560 /* ContentView.swift */,
-				00055C862B510965000A7560 /* Item.swift */,
-				00055C882B510966000A7560 /* Assets.xcassets */,
-				00055C8A2B510966000A7560 /* Preview Content */,
+				00055CC42B5117E3000A7560 /* ExternalC.h */,
 			);
-			path = "Mergable Libraries";
-			sourceTree = "<group>";
-		};
-		00055C8A2B510966000A7560 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				00055C8B2B510966000A7560 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
+			path = ExternalC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		00055CBC2B5117E3000A7560 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00055CC52B5117E3000A7560 /* ExternalC.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		00055C7E2B510965000A7560 /* Mergable Libraries */ = {
+		00055CC02B5117E3000A7560 /* ExternalC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00055C8F2B510966000A7560 /* Build configuration list for PBXNativeTarget "Mergable Libraries" */;
+			buildConfigurationList = 00055CC82B5117E3000A7560 /* Build configuration list for PBXNativeTarget "ExternalC" */;
 			buildPhases = (
-				00055C7B2B510965000A7560 /* Sources */,
-				00055C7C2B510965000A7560 /* Frameworks */,
-				00055C7D2B510965000A7560 /* Resources */,
+				00055CBC2B5117E3000A7560 /* Headers */,
+				00055CBD2B5117E3000A7560 /* Sources */,
+				00055CBE2B5117E3000A7560 /* Frameworks */,
+				00055CBF2B5117E3000A7560 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Mergable Libraries";
-			productName = "Mergable Libraries";
-			productReference = 00055C7F2B510965000A7560 /* Mergable Libraries.app */;
-			productType = "com.apple.product-type.application";
+			name = ExternalC;
+			productName = ExternalC;
+			productReference = 00055CC12B5117E3000A7560 /* ExternalC.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		00055C772B510965000A7560 /* Project object */ = {
+		00055CB82B5117E3000A7560 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
-					00055C7E2B510965000A7560 = {
+					00055CC02B5117E3000A7560 = {
 						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1520;
 					};
 				};
 			};
-			buildConfigurationList = 00055C7A2B510965000A7560 /* Build configuration list for PBXProject "Mergable Libraries" */;
+			buildConfigurationList = 00055CBB2B5117E3000A7560 /* Build configuration list for PBXProject "ExternalC" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,43 +114,41 @@
 				en,
 				Base,
 			);
-			mainGroup = 00055C762B510965000A7560;
-			productRefGroup = 00055C802B510965000A7560 /* Products */;
+			mainGroup = 00055CB72B5117E3000A7560;
+			productRefGroup = 00055CC22B5117E3000A7560 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				00055C7E2B510965000A7560 /* Mergable Libraries */,
+				00055CC02B5117E3000A7560 /* ExternalC */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		00055C7D2B510965000A7560 /* Resources */ = {
+		00055CBF2B5117E3000A7560 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00055C8C2B510966000A7560 /* Preview Assets.xcassets in Resources */,
-				00055C892B510966000A7560 /* Assets.xcassets in Resources */,
+				00055CEC2B511A21000A7560 /* ExternalC.xcassets in Resources */,
+				00055CEE2B511F0F000A7560 /* mansion.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		00055C7B2B510965000A7560 /* Sources */ = {
+		00055CBD2B5117E3000A7560 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00055C852B510965000A7560 /* ContentView.swift in Sources */,
-				00055C872B510965000A7560 /* Item.swift in Sources */,
-				00055C832B510965000A7560 /* Mergable_LibrariesApp.swift in Sources */,
+				00055CCC2B5117EB000A7560 /* ExternalC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		00055C8D2B510966000A7560 /* Debug */ = {
+		00055CC62B5117E3000A7560 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -183,6 +182,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -209,10 +209,12 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		00055C8E2B510966000A7560 /* Release */ = {
+		00055CC72B5117E3000A7560 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -246,6 +248,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -265,61 +268,76 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		00055C902B510966000A7560 /* Debug */ = {
+		00055CC92B5117E3000A7560 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Mergable Libraries/Preview Content\"";
-				DEVELOPMENT_TEAM = 869E762K34;
-				ENABLE_PREVIEWS = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "net.steveriggins.Mergable-Libraries";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		00055C912B510966000A7560 /* Release */ = {
+		00055CCA2B5117E3000A7560 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Mergable Libraries/Preview Content\"";
-				DEVELOPMENT_TEAM = 869E762K34;
-				ENABLE_PREVIEWS = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "net.steveriggins.Mergable-Libraries";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -329,25 +347,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00055C7A2B510965000A7560 /* Build configuration list for PBXProject "Mergable Libraries" */ = {
+		00055CBB2B5117E3000A7560 /* Build configuration list for PBXProject "ExternalC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00055C8D2B510966000A7560 /* Debug */,
-				00055C8E2B510966000A7560 /* Release */,
+				00055CC62B5117E3000A7560 /* Debug */,
+				00055CC72B5117E3000A7560 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		00055C8F2B510966000A7560 /* Build configuration list for PBXNativeTarget "Mergable Libraries" */ = {
+		00055CC82B5117E3000A7560 /* Build configuration list for PBXNativeTarget "ExternalC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00055C902B510966000A7560 /* Debug */,
-				00055C912B510966000A7560 /* Release */,
+				00055CC92B5117E3000A7560 /* Debug */,
+				00055CCA2B5117E3000A7560 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 00055C772B510965000A7560 /* Project object */;
+	rootObject = 00055CB82B5117E3000A7560 /* Project object */;
 }
